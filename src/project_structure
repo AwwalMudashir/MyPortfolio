@@ -1,0 +1,23 @@
+/src
+│
+├── App.jsx                  // Main wrapper with theme + routing
+├── main.jsx                // ReactDOM render
+├── Display.jsx             // Handles routing (or layout if only 1 page)
+│
+├── /components             // All your reusable sections/components
+│   ├── NavBar.jsx
+│   ├── HeroSection.jsx
+│   ├── AboutSection.jsx
+│   ├── SkillsSection.jsx
+│   ├── ProjectsSection.jsx
+│   ├── ProjectCard.jsx         // Used inside ProjectsSection
+│   ├── ContactSection.jsx
+│   ├── Footer.jsx
+│   ├── ThemeToggle.jsx        // 🌗 Dark mode toggle button
+│   └── SectionDivider.jsx     // Optional, for visual break between sections
+│
+├── /assets                // Images, logos, icons, favicons
+│
+└── /data
+    ├── projects.js            // Export project info (image, title, tech, etc.)
+    └── socials.js             // Optional: social links, contact info

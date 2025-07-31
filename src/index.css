@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-bg: linear-gradient(0deg, #000000, #3432c7);
+  --accent-blue: #3432c7;
+  --text-glow-white: #ffffff;
+  --text-glow-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  --text-gray: #d1d1d1;
+}
+
+
+.hg {
+  background: linear-gradient(0deg, #000000, #3432c7);
+}
+
+.bb {
+  background: linear-gradient(45deg, #0000, #ffffff1a, #0000, #ffffff1a, #0000) 0 0 / 200% 200%;
+  transition: opacity .3s;
+  animation: 4s linear infinite border-dance;
+}
+
+body {
+  @apply bg-black text-white font-sans;
+  background: var(--primary-bg);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Outfit', sans-serif;
+  text-shadow: var(--text-glow-shadow);
+}
+
+/* Paragraph and small text */
+p,
+span,
+a,
+li {
+  /* color: var(--text-gray); */
+  font-family: 'Inter', sans-serif;
+}
+
+/* Anchor tags */
+a {
+  @apply transition duration-300 hover:text-white;
+  text-shadow: var(--text-glow-shadow);
+}
+
+/* Utility class for glowing white text */
+.glow-white {
+  color: var(--text-glow-white);
+  text-shadow: var(--text-glow-shadow);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-in-out;
+}
