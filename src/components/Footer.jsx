@@ -2,16 +2,17 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0D0C2B] text-gray-300 py-10 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Column 1: Personal Info */}
-        <div>
-          <h2 className="text-xl font-bold text-white mb-2">Awwal Mudashir</h2>
-          <p className="text-sm">Software Engineer</p>
-          <p className="text-sm">Lagos, Nigeria</p>
-        </div>
+  <footer className="bg-gradient-to-r from-black via-[#1a199b] to-black py-12 mt-auto">
+    <div className="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      
+      <div>
+        <h2 className="text-white text-xl font-semibold mb-4">About Me</h2>
+        <p className="text-gray-400 leading-relaxed">
+          I'm committed to building bold, modern, and accessible digital
+          experiences. Turning ideas into high-performance applications.
+        </p>
+      </div>
 
-        {/* Column 2: Quick Links */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-2">Quick Links</h3>
           <ul className="space-y-2 text-sm">
@@ -22,8 +23,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Column 3: Social Links */}
-        <div>
+       <div>
           <h3 className="text-lg font-semibold text-white mb-2">Connect</h3>
           <ul className="flex gap-6 text-xl">
             <li>
@@ -58,10 +58,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom line */}
       <div className="text-center mt-10 text-sm text-gray-500">
         © {new Date().getFullYear()} Awwal Mudashir. All rights reserved.
       </div>
-    </footer>
+  </footer>
   );
 }
