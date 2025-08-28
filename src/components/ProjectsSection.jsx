@@ -3,6 +3,14 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    title: "Diabetes Predictor App",
+    description:
+      "A web application designed for early diabetes risk assessment. Features include AI-powered prediction using medical and lifestyle data, interactive health dashboards, personalized recommendations, and secure role-based access for patients and healthcare professionals. Built with a scalable microservices architecture.",
+    techStack: ["Python", "Scikit-learn", "Streamlit"],
+    github: "https://github.com/AwwalMudashir/Diabetes_ML_Predictor",
+    image: "/diabetes-pred.png",
+  },
+  {
     title: "Student Course Management System",
     description:
       "A web application developed for academic automation. Features include automated exam registration notifications, AI-powered question prediction, revision tools, and role-based access for students, teachers, and admins. Built with microservices architecture.",
@@ -31,8 +39,8 @@ const projects = [
     description:
       "A content and project management system for a construction company, offering backend control over website content and team management tools.",
     techStack: ["HTML", "CSS", "Node.js", "Express.js"],
-    github: "https://github.com/AwwalMudashir/GapsLight",
-    image: "/gaps.png",
+    live: "https://gapslight.com",
+    image: "/gapslight.png",
   },
   {
     title: "Book Store App",
@@ -48,6 +56,7 @@ const projects = [
       "A nostalgic recreation of the early 2000s snake game featuring dynamic grid movement and a high score tracker.",
     techStack: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/AwwalMudashir/snake-game",
+    live: "https://snake-game-eight-hazel.vercel.app/",
     image: "/snake.png",
   },
 ];

@@ -1,7 +1,7 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub,FaGlobe } from "react-icons/fa";
 
-const ProjectCard = ({ title, description, techStack, github, image }) => {
+const ProjectCard = ({ title, description, techStack, github,live, image }) => {
   return (
     <div className="bg-[#1a1a2e] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
       <div className="h-48 w-full bg-cover bg-center" style={{ backgroundImage: `url(${image})` }} />
@@ -26,6 +26,16 @@ const ProjectCard = ({ title, description, techStack, github, image }) => {
             className="inline-flex items-center gap-2 text-sm text-white hover:text-[#a6a6ff] transition"
           >
             <FaGithub className="text-lg" /> View Code
+          </a>
+        )}
+        {live && (
+          <a
+            href={live}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-6 inline-flex items-center gap-2 text-sm text-white hover:text-[#a6a6ff] transition"
+          >
+            <FaGlobe className="text-lg" /> Live
           </a>
         )}
       </div>
