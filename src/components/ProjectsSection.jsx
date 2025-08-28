@@ -8,7 +8,7 @@ const projects = [
       "A web application designed for early diabetes risk assessment. Features include AI-powered prediction using medical and lifestyle data, interactive health dashboards, personalized recommendations, and secure role-based access for patients and healthcare professionals. Built with a scalable microservices architecture.",
     techStack: ["Python", "Scikit-learn", "Streamlit"],
     github: "https://github.com/AwwalMudashir/Diabetes_ML_Predictor",
-    image: "/diabetes-pred.png",
+    image: "/diabetes_pred.png",
   },
   {
     title: "Student Course Management System",
