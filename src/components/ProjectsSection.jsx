@@ -15,10 +15,27 @@ const projects = [
     title: "Student Course Management System",
     description:
       "A web application developed for academic automation. Features include automated exam registration notifications, AI-powered question prediction, revision tools, and role-based access for students, teachers, and admins. Built with microservices architecture.",
-    techStack: ["React (Vite)", "Tailwind CSS", "Spring Boot"],
+    techStack: ["Next.js", "Tailwind CSS", "Spring Boot"],
     github: "",
     image: "/projects.png",
   },
+  {
+    title: "Cinema Republic Website",
+    description:
+      "A comprehensive cinema advertisement platform for a company Cinema Republic Ltd. offering movie listings, showtimes, ticket bookings for content and user management. Developed as a frontend application for a seamless user experience.",
+    techStack: ["React (Vite)", "Tailwind CSS", "Spring Boot"],
+    github: "",
+    live: "https://www.cinemarepublicnaija.com/",
+    image: "/cinema_republic.png",
+  },
+  // {
+  //   title: "Yenny's Kitchen",
+  //   description:
+  //     "An online food ordering platform for Yenny's Kitchen, a local restaurant. Features include menu browsing, order placement, and real-time order tracking. Developed as a fullstack application to enhance customer experience.",
+  //   techStack: ["Next.js", "Tailwind CSS", "Spring Boot"],
+  //   github: "",
+  //   image: "/projects.png",
+  // },
   {
     title: "Employee Management System",
     description:

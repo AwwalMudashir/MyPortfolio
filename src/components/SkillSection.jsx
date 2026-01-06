@@ -8,6 +8,7 @@ const skillsData = [
       { name: 'CSS', logo: '/logos/css.png' },
       { name: 'JavaScript', logo: '/logos/js.png' },
       { name: 'React', logo: '/logos/react.png' },
+      { name: 'Next.js', logo: '/logos/nextjs.jpg' },
       { name: 'Tailwind CSS', logo: '/logos/tailwind.png' },
       { name: 'Flutter', logo: '/logos/flutter.png' },
     ],
