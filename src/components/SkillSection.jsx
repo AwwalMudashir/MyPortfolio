@@ -6,6 +6,7 @@ const skillsData = [
     skills: [
       { name: 'HTML', logo: '/logos/html.png' },
       { name: 'CSS', logo: '/logos/css.png' },
+      { name: 'Figma', logo: '/logos/figma.png' },
       { name: 'JavaScript', logo: '/logos/js.png' },
       { name: 'React', logo: '/logos/react.png' },
       { name: 'Next.js', logo: '/logos/nextjs.jpg' },
