@@ -47,7 +47,7 @@ export default function ContactSection() {
               <a href="#" target="_blank" rel="noreferrer">
                 <Linkedin className="w-6 h-6 hover:text-[#F4A261]" />
               </a>
-              <a href="https://twitter.com/yourtwitter" target="_blank" rel="noreferrer">
+              <a href="https://x.com/AwwalM6697" target="_blank" rel="noreferrer">
                 <Twitter className="w-6 h-6 hover:text-[#F4A261]" />
               </a>
             </div>
